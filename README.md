@@ -1,4 +1,4 @@
-# Waveform Technical Challenge — Submission (plain-language version)
+# Waveform Technical Challenge — Submission
 
 **Author:** Tien Nguyen
 **Position:** Computational Scientist — UAB Anesthesiology & Perioperative Medicine
