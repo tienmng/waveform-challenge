@@ -1,26 +1,14 @@
 # Waveform Technical Challenge — Submission
 
 **Author:** Tien Nguyen
-**Position:** Computational Scientist — UAB Anesthesiology & Perioperative Medicine
 **Data:** MIMIC-III Blood Pressure dataset (Harvard Dataverse, doi:10.7910/DVN/DBM1NF)
-
-## The project in one paragraph
-
-The goal is to estimate blood pressure without a cuff, using signals a hospital monitor
-already records: the **ECG** (the heart's electrical trace) and the **PPG** (the finger-clip
-pulse sensor). Each patient's recordings are cut into 30-second clips. For every clip we
-(1) check the signal quality, (2) boil the raw waveform down to a handful of meaningful
-numbers ("features") a model could learn from, and (3) do this carefully so the answer never
-leaks into the inputs. We also audit a colleague's ICU mortality model and reflect on the
-limits and ethics of deploying something like this.
 
 ## How to run
 1. `python -m venv .venv && source .venv/bin/activate`
 2. `pip install -r requirements.txt`
 3. Open `notebook/waveform_challenge.ipynb` and run it top to bottom.
 
-Random seeds are fixed, so the results reproduce exactly. The raw waveform files are **not**
-included (per the challenge instructions); `data/README.md` explains how to download them.
+The raw waveform files are **not** included; `data/README.md` explains how to download them.
 
 ## What's in each folder
 ```
