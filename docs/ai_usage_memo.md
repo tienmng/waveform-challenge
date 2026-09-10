@@ -17,9 +17,10 @@ the figures, the methodology audit, and the analysis notebook; standard scientif
    signals; on the real data they dropped the usable-clip rate from 92% to 0.4%. I kept only
    its two sound pieces (a guard against missing values and a fast run-length routine) and made
    the rest report-only.
-2. **For contrast, I accepted a different AI suggestion** — a leakage-aware feature-ranking
+2. **For contrast, I accepted different AI suggestions** — a leakage-aware feature-ranking
    helper — but only after confirming on the real data that it correctly excluded the arterial
    signal and ranked sensible features.
+3. **I directed and redirected AI to follow requirements closely** For example: to include extra figures for representations of data, or to not focus on BP prediction (which happened many times).
 
 **Attribution.** Code was AI-generated or AI-adapted, then reviewed by
 me. The full conversation is in `ai_conversation/llm_transcript.md`.
