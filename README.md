@@ -4,13 +4,6 @@
 **Position:** Computational Scientist — UAB Anesthesiology & Perioperative Medicine
 **Data:** MIMIC-III Blood Pressure dataset (Harvard Dataverse, doi:10.7910/DVN/DBM1NF)
 
-> This is a **simplified copy** of the submission. The analysis, code, and numbers are the
-> same as the main package — only the *writing* (this README, the memos, the code comments,
-> and the notebook text) has been rewritten to be short and readable for someone who is not a
-> signal-processing or machine-learning expert. No code behavior was changed.
-
----
-
 ## The project in one paragraph
 
 The goal is to estimate blood pressure without a cuff, using signals a hospital monitor
