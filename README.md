@@ -1,6 +1,6 @@
 # Waveform Technical Challenge — Submission (plain-language version)
 
-**Author:** Tim Nguyen
+**Author:** Tien Nguyen
 **Position:** Computational Scientist — UAB Anesthesiology & Perioperative Medicine
 **Data:** MIMIC-III Blood Pressure dataset (Harvard Dataverse, doi:10.7910/DVN/DBM1NF)
 
