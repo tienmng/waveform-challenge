@@ -1,0 +1,10 @@
+# Raw waveform data — do NOT commit (5+ GB, and not for submission)
+data/dataverse_files/
+
+# OS / editor / Python junk
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
